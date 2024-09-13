@@ -16,7 +16,7 @@ function Crack() {
     <preLoader />
     let ipAddress = ip + "/video"
     // fetch(`http://127.0.0.1:5000/sendIp`, {
-    var response = await fetch(`https://crack-detection-lemon.vercel.app/sendIp?ip=${ipAddress}`, {
+    var response = await fetch(`http://127.0.0.1:5000/sendIp?ip=${ipAddress}`, {
       method: "GET",
       mode: "no-cors",
       cache: "no-cache",
