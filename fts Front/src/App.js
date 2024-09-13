@@ -42,7 +42,7 @@ function App() {
   });
   return (
     <>
-      {location.pathname !== "/" ? <Navbar /> :   ""}
+      {location.pathname !== "/" ? <Navbar />  :   ""}
     
     <Preloader load={load} />
     <div className="App" id={load ? "no-scroll" : "scroll"}>
@@ -55,7 +55,8 @@ function App() {
         <Route path="/damp" element={<Damp />} />
         <Route path="*" element={<Navigate to="/"/>} />
       </Routes>
-      <Footer />
+      {location.pathname !== "/" ? <Footer />  :   ""}
+
     </div>
   {/* </Router> */}
   </>
