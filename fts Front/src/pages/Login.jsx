@@ -6,7 +6,7 @@ import "./Login.css"
 export default function LoginPage(){
     return(
         <>
-        <div className="min-h-screen bg-gray-50 flex flex-col justify-center relative overflow-hidden sm:py-12" style={{backgroundColor:"grey"}}>
+        <div className="min-h-screen bg-gray-50 flex flex-col justify-center relative overflow-hidden" style={{backgroundColor:"grey"}}>
     {/* <div className="
 max-w-7xl mx-auto"> */}
 

@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import forCrack from "../../assests/crack.jpg";
 import forDamp from "../../assests/damp.jpg";
 import forThermal from "../../assests/Thermal-Building.jpg";
+// import { FcLock } from "react-icons/fc";
 
 function Projects() {
   return (
@@ -33,7 +34,7 @@ function Projects() {
             <ProjectCard
               imgPath={forDamp}
               isBlog={false}
-              title="Geo Location"
+              title="Damp"
               description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
               // ghLink="https://github.com/s-satyajit/geo-locator-app-js"
               // demoLink="geo-locator-app-js.vercel.app"
@@ -41,7 +42,8 @@ function Projects() {
           </Col>
 
           <Col md={4} className="project-card">
-            <ProjectCard
+          <div style={{height:"100%"}}>
+                        <ProjectCard
               imgPath={forThermal}
               isBlog={false}
               title="Thermal Imaging"
@@ -49,6 +51,16 @@ function Projects() {
               // ghLink="https://github.com/soumyajit4419/Editor.io"
               // demoLink="currency-converter-reactjs-silk.vercel.app"              
             />
+
+          </div>
+            {/* <ProjectCard
+              imgPath={forThermal}
+              isBlog={false}
+              title="Thermal Imaging"
+              description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+              // ghLink="https://github.com/soumyajit4419/Editor.io"
+              // demoLink="currency-converter-reactjs-silk.vercel.app"              
+            /> */}
           </Col>
 
         </Row>

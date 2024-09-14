@@ -60,17 +60,16 @@ function Home2() {
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <BiSupport />
+                  <BiSupport style={{display:"ruby"}} />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/satyajitstwt"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <FaWhatsapp />
+                  <FaWhatsapp style={{display:"ruby"}} />
                 </a>
               </li>
             </ul>
